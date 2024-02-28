@@ -22,7 +22,7 @@ body.body_sobre_Mi {
     background-color: black;
     color: #fff;
     position: relative;
-    background: url(images/Background2.png);
+    background: #000;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top 30%;
