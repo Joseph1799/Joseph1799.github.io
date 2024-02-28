@@ -24,11 +24,10 @@ body.body_sobre_Mi {
     position: relative;
     background: #000;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center top 30%;
     position: relative;
     width: 100%;
-
 }
 
 .even-columns {
@@ -194,6 +193,10 @@ nav ul li a:hover::after{
   }
 }
 
+.container {
+    overflow-y: hidden; /* Deshabilita el scroll vertical */
+}
+
 #animated-div {
     transform: translateY(100%);
     opacity: 0;
@@ -212,3 +215,25 @@ nav ul li a:hover::after{
         opacity: 1;
     }
 }
+
+/*--------------------------------------------*/
+
+.card {
+    border-color: darkslategrey;
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    background-color: darkslategrey;
+    width: 400px;
+    margin-bottom: 35px;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 0 5px 5px darkslategray;
+    cursor: pointer;
+  }
+
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+
