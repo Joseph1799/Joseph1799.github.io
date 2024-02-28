@@ -216,24 +216,25 @@ nav ul li a:hover::after{
     }
 }
 
-/*--------------------------------------------*/
-
 .card {
-    border-color: darkslategrey;
+    border: 3px solid rgba(0, 96, 128, 0.8); 
+    box-shadow: 0 0 10px rgba(0, 96, 128, 0.5); 
     transition: 0.3s;
-    border-radius: 5px; /* 5px rounded corners */
-    background-color: darkslategrey;
-    width: 400px;
-    margin-bottom: 35px;
-  }
-  
-  /* On mouse-over, add a deeper shadow */
+    border-radius: 5px; 
+    background-color: white; 
+    width: 70vh;
+    color: black; 
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 90vw; /* Cambia el ancho a 90% en pantallas menores a 768px */
+    }
+}
+
   .card:hover {
-    box-shadow: 0 0 5px 5px darkslategray;
+    box-shadow: 0 0 5px 6px #006080;
     cursor: pointer;
   }
 
-  img {
-    border-radius: 5px 5px 0 0;
-  }
 
